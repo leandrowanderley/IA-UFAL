@@ -6,7 +6,7 @@ import google.generativeai as genai
 import json
 
 # Configure AI model
-with open("key.json") as f:
+with open("key-gemini.json") as f:
     api_key = json.load(f)["key"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
