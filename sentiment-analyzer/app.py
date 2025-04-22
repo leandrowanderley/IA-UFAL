@@ -1,4 +1,8 @@
 # Construção da aplicação de Análise de Sentimento em Python com Streamlit e Hugging Face
+
+# Para executar o código:
+# python -m venv venv
+# source venv/bin/activate
 # pip install transformers streamlit
 # streamlit run /Users/leandrowanderley/Documents/programacao/IA-UFAL/sentiment-analyzer/app.py
 

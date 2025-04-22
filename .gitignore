@@ -1,2 +1,67 @@
 key.json
 key-gemini.json
+
+# Ignore Python virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Python virtual environments on folder sentiment-analyzer
+sentiment-analyzer/venv/
+sentiment-analyzer/.env/
+sentiment-analyzer/.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
