@@ -29,7 +29,7 @@ model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 model.fit(df['texto'], df['sentimento'])
 
 # App com Streamlit
-st.title("Análise de Sentimento com ML tradicional 🤖")
+st.title("Análise de Sentimento Naive Bayes")
 
 user_text = st.text_area("Digite um texto:")
 
